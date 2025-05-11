@@ -1,35 +1,55 @@
-# Power-BI---Olympics-Data-Analysis
+# Olympics Data Analysis Dashboard (Power BI)
 
-**Title: Olympics Data Analysis**
->Replace all null entries with zero.
+**Project Overview**
+>This project presents a comprehensive analysis of Olympic Games data using Power BI. The goal is to explore country-wise medal achievements, seasonal trends, and participation stats in a visual, interactive dashboard. The dataset includes medal counts by country and season (Summer/Winter), enabling dynamic exploration and insight generation.
 
->Extract country code from country column.
+Dataset
+Source: (https://docs.google.com/spreadsheets/d/1-1CZFXShtEItP_e4ZTJcYBIa3UJlQRPqlSSohSlc0uo/edit?usp=sharing)
 
->Find total in columns and in the last row.
+Preprocessing: Data cleaning and transformation were performed in Power BI using Power Query:
 
->Count the number of countries that participated in the Olympics.
+Replaced all null values with zero.
 
-**Introduction:**
->In this Olympics dataset, the goal is to conduct a thorough analysis to extract meaningful insights and present the information in a clear and accessible manner. The dataset includes details on participating countries, season wise medal counts. The following operations is performed:
+Extracted 3-letter country codes from the country column.
 
-**Dataset Link:**
-https://docs.google.com/spreadsheets/d/1-1CZFXShtEItP_e4ZTJcYBIa3UJlQRPqlSSohSlc0uo/edit?usp=sharing
+Computed total medals and grand totals across columns and rows.
 
-**Dashboard that include:** 
->Which countries have the highest gold, silver, and bronze medals in summer Olympics?
+Counted the number of unique participating countries.
 
->Show a bar chart of the top 10 countries with the most medals.
+**Key Features**
+Top Medal-Winning Countries:
 
->How many games have been played in the Summer and Winter Olympics?
+Visuals highlighting countries with the highest gold, silver, and bronze medals in the Summer Olympics.
 
->Compare the total medals won in Summer and Winter Olympics.
+Top 10 Countries with Most Medals:
 
->Highlight countries with the highest and lowest participation.
+Interactive bar chart showing overall top 10 medal-winning nations.
 
->Create a map visualisation showing medal distribution across different countries.
+**Games Overview:**
 
+Count of total Summer vs Winter Olympics editions.
 
-Dashboard Preview:
+Comparison of total medals won across both seasons.
 
+**Participation Insights:**
 
+Visuals for countries with the highest and lowest participation.
+
+Global Medal Map:
+
+Map visualization showing geographical distribution of medals by country.
+
+**Tools & Technologies**
+
+>Power BI Desktop
+
+>Power Query Editor for data cleaning
+
+>DAX for calculated fields and KPIs
+
+>Visualizations: Bar charts, Maps, Cards, Tables, and more
+
+>Google Sheets (for dataset access)
+
+Dashboard Preview
 
